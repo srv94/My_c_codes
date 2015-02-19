@@ -1,0 +1,15 @@
+03:54:10 **** Incremental Build of configuration Debug for project qus4 ****
+make all 
+Building file: ../src/qus4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/qus4.d" -MT"src/qus4.d" -o "src/qus4.o" "../src/qus4.cpp"
+Finished building: ../src/qus4.cpp
+ 
+Building target: qus4
+Invoking: MacOS X C++ Linker
+g++  -o "qus4"  ./src/qus4.o   
+Finished building target: qus4
+ 
+
+03:54:11 Build Finished (took 732ms)
+

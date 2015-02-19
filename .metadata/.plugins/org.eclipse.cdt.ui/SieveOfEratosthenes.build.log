@@ -1,0 +1,15 @@
+14:03:50 **** Incremental Build of configuration Debug for project SieveOfEratosthenes ****
+make all 
+Building file: ../src/SieveOfEratosthenes.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SieveOfEratosthenes.d" -MT"src/SieveOfEratosthenes.d" -o "src/SieveOfEratosthenes.o" "../src/SieveOfEratosthenes.c"
+Finished building: ../src/SieveOfEratosthenes.c
+ 
+Building target: SieveOfEratosthenes
+Invoking: MacOS X C Linker
+gcc  -o "SieveOfEratosthenes"  ./src/SieveOfEratosthenes.o   
+Finished building target: SieveOfEratosthenes
+ 
+
+14:03:50 Build Finished (took 110ms)
+

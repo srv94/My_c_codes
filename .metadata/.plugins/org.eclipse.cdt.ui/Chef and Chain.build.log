@@ -1,0 +1,15 @@
+15:32:00 **** Incremental Build of configuration Debug for project Chef and Chain ****
+make all 
+Building file: ../src/Chef and Chain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Chef and Chain.d" -MT"src/Chef\ and\ Chain.d" -o "src/Chef and Chain.o" "../src/Chef and Chain.cpp"
+Finished building: ../src/Chef and Chain.cpp
+ 
+Building target: Chef and Chain
+Invoking: MacOS X C++ Linker
+g++  -o "Chef and Chain"  ./src/Chef\ and\ Chain.o   
+Finished building target: Chef and Chain
+ 
+
+15:32:01 Build Finished (took 639ms)
+

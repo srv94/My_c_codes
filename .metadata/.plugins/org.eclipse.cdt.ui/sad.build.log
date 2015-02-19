@@ -1,0 +1,7 @@
+01:24:33 **** Clean-only build of configuration Debug for project sad ****
+make clean 
+rm -rf  ./src/sad.o  ./src/sad.d  sad
+ 
+
+01:24:33 Build Finished (took 112ms)
+

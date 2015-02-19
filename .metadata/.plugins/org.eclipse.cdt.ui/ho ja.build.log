@@ -1,0 +1,15 @@
+11:34:20 **** Incremental Build of configuration Debug for project ho ja ****
+make all 
+Building file: ../src/ho ja.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ho ja.d" -MT"src/ho\ ja.d" -o "src/ho ja.o" "../src/ho ja.cpp"
+Finished building: ../src/ho ja.cpp
+ 
+Building target: ho ja
+Invoking: MacOS X C++ Linker
+g++  -o "ho ja"  ./src/ho\ ja.o   
+Finished building target: ho ja
+ 
+
+11:34:24 Build Finished (took 4s.352ms)
+

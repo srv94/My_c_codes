@@ -1,0 +1,51 @@
+/*
+ ============================================================================
+ Name        : Gregorian.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int calculate_days(int month, int year){
+	int days;
+	if(month == 2){
+		if(year % 4 == 0){
+			if(year % 100 == 0){
+				if( year % 400 == 0) days =29;
+				else days=28;
+			}
+			else days=29;
+		}
+		else days=28;
+	}
+	else{
+		if(month % 2 == 0 ) days= 30;
+		else days = 31;
+	}
+
+	return days;
+}
+
+int main(void) {
+	int q,m,k,j;
+	printf("Enter Month : ");
+	scanf("%d",&m);
+	printf("Enter Year : ");
+	scanf("%d",&q);
+	if(m<=2){
+		m=14-m;
+		q=q-1;
+	}
+	k = q%100;
+	j = q/100;
+	q=1;
+	printf("q = %d, m = %d, k = %d, j = %d",q,m,k,j);
+	int ans = ( q + ((13*(m+1))/5) + k + (k/4) + (j/4) + (5*j)) % 7;
+	printf("Answer is %d",ans);
+	return EXIT_SUCCESS;
+}

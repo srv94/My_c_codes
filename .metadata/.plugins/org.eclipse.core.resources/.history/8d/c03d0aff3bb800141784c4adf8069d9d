@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Gregorian.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	long long int q,m,k,j;
+	printf("Enter Month : ");
+	scanf("%lld",&m);
+	printf("Enter Year : ");
+	scanf("%lld",&q);
+	if(m<=2){
+		m=14-m;
+		q=q-1;
+	}
+	k = q%100;
+	j = q/100;
+	q=1;
+	printf("q = %lld, m = %lld, k = %lld, j = %lld",q,m,k,j);
+	long long int ans = ( q + ((13*(m+1))/5) + k + (k/4) + (j/4) + (5*j));
+	printf("Answer is %lld",ans);
+	return EXIT_SUCCESS;
+}

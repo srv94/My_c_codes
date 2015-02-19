@@ -1,0 +1,19 @@
+10:40:49 **** Incremental Build of configuration Debug for project new_stack ****
+make all 
+Building file: ../src/new_stack.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/new_stack.d" -MT"src/new_stack.d" -o "src/new_stack.o" "../src/new_stack.c"
+../src/new_stack.c:22:15: warning: treating Unicode character as whitespace [-Wunicode-whitespace]
+        if(!s) return NULL;
+                     ^
+1 warning generated.
+Finished building: ../src/new_stack.c
+ 
+Building target: new_stack
+Invoking: MacOS X C Linker
+gcc  -o "new_stack"  ./src/new_stack.o   
+Finished building target: new_stack
+ 
+
+10:40:49 Build Finished (took 107ms)
+

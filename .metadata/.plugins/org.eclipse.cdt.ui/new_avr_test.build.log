@@ -1,0 +1,55 @@
+18:33:12 **** Incremental Build of configuration Debug for project new_avr_test ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 new_avr_test.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     150 bytes (0.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+/usr/local/CrossPack-AVR-20131216/bin/avrdude -pm16 -cusbasp -Uflash:w:new_avr_test.hex:a
+
+avrdude: warning: cannot set sck period. please check for usbasp firmware update.
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude: Device signature = 0x1e9403
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: warning: cannot set sck period. please check for usbasp firmware update.
+avrdude: reading input file "new_avr_test.hex"
+avrdude: input file new_avr_test.hex auto detected as Intel Hex
+avrdude: writing flash (150 bytes):
+
+Writing | ################################################## | 100% 2.07s
+
+avrdude: 150 bytes of flash written
+avrdude: verifying flash memory against new_avr_test.hex:
+avrdude: load data flash data from input file new_avr_test.hex:
+avrdude: input file new_avr_test.hex auto detected as Intel Hex
+avrdude: input file new_avr_test.hex contains 150 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 1.49s
+
+avrdude: verifying ...
+avrdude: 150 bytes of flash verified
+
+avrdude done.  Thank you.
+
+Finished building: avrdudedummy
+ 
+
+18:33:16 Build Finished (took 4s.8ms)
+

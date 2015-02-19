@@ -1,0 +1,16 @@
+
+**** Build of configuration Debug for project Chef and Apple Trees ****
+
+make all 
+Building file: ../src/Chef and Apple Trees.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Chef and Apple Trees.d" -MT"src/Chef\ and\ Apple\ Trees.d" -o "src/Chef and Apple Trees.o" "../src/Chef and Apple Trees.c"
+Finished building: ../src/Chef and Apple Trees.c
+ 
+Building target: Chef and Apple Trees
+Invoking: MacOS X C Linker
+gcc  -o "Chef and Apple Trees"  ./src/Chef\ and\ Apple\ Trees.o   
+Finished building target: Chef and Apple Trees
+ 
+
+**** Build Finished ****

@@ -1,0 +1,19 @@
+21:07:30 **** Incremental Build of configuration Debug for project Chef and Strings ****
+make all 
+Building file: ../src/Chef and Strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Chef and Strings.d" -MT"src/Chef\ and\ Strings.d" -o "src/Chef and Strings.o" "../src/Chef and Strings.cpp"
+../src/Chef and Strings.cpp:74:10: warning: unused variable 'a' [-Wunused-variable]
+        int l,r,a,b;
+                ^
+1 warning generated.
+Finished building: ../src/Chef and Strings.cpp
+ 
+Building target: Chef and Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Chef and Strings"  ./src/Chef\ and\ Strings.o   
+Finished building target: Chef and Strings
+ 
+
+21:07:32 Build Finished (took 2s.656ms)
+

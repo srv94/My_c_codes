@@ -1,0 +1,7 @@
+01:24:32 **** Clean-only build of configuration Debug for project Is Fibo 2 ****
+make clean 
+rm -rf  ./src/Is\ Fibo\ 2.o  ./src/Is\ Fibo\ 2.d  "Is Fibo 2"
+ 
+
+01:24:32 Build Finished (took 113ms)
+

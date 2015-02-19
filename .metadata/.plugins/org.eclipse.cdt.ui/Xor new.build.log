@@ -1,0 +1,7 @@
+01:24:32 **** Clean-only build of configuration Debug for project Xor new ****
+make clean 
+rm -rf  ./src/Alok-nath\ and\ His\ Sanskars_new.o  ./src/Alok-nath\ and\ His\ Sanskars_new.d  "Xor new"
+ 
+
+01:24:32 Build Finished (took 110ms)
+

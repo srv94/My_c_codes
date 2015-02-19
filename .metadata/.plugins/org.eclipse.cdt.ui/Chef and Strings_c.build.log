@@ -1,0 +1,19 @@
+17:11:16 **** Incremental Build of configuration Debug for project Chef and Strings_c ****
+make all 
+Building file: ../src/Chef and Strings_c.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Chef and Strings_c.d" -MT"src/Chef\ and\ Strings_c.d" -o "src/Chef and Strings_c.o" "../src/Chef and Strings_c.c"
+../src/Chef and Strings_c.c:56:13: warning: format specifies type 'char *' but the argument has type 'char (*)[1000000]' [-Wformat]
+        scanf("%s",&str);
+               ~~  ^~~~
+1 warning generated.
+Finished building: ../src/Chef and Strings_c.c
+ 
+Building target: Chef and Strings_c
+Invoking: MacOS X C Linker
+gcc  -o "Chef and Strings_c"  ./src/Chef\ and\ Strings_c.o   
+Finished building target: Chef and Strings_c
+ 
+
+17:11:20 Build Finished (took 4s.382ms)
+

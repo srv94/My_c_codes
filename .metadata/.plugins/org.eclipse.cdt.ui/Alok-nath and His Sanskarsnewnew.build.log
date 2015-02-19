@@ -1,0 +1,7 @@
+01:24:31 **** Clean-only build of configuration Debug for project Alok-nath and His Sanskarsnewnew ****
+make clean 
+rm -rf  ./src/Alok-nath\ and\ His\ Sanskarsnewnew.o  ./src/Alok-nath\ and\ His\ Sanskarsnewnew.d  "Alok-nath and His Sanskarsnewnew"
+ 
+
+01:24:32 Build Finished (took 114ms)
+

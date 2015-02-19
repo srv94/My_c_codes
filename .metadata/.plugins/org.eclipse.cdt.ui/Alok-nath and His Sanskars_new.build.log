@@ -1,0 +1,15 @@
+11:29:16 **** Incremental Build of configuration Debug for project Alok-nath and His Sanskars_new ****
+make all 
+Building file: ../src/Alok-nath and His Sanskars_new.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Alok-nath and His Sanskars_new.d" -MT"src/Alok-nath\ and\ His\ Sanskars_new.d" -o "src/Alok-nath and His Sanskars_new.o" "../src/Alok-nath and His Sanskars_new.cpp"
+Finished building: ../src/Alok-nath and His Sanskars_new.cpp
+ 
+Building target: Alok-nath and His Sanskars_new
+Invoking: MacOS X C++ Linker
+g++  -o "Alok-nath and His Sanskars_new"  ./src/Alok-nath\ and\ His\ Sanskars_new.o   
+Finished building target: Alok-nath and His Sanskars_new
+ 
+
+11:29:17 Build Finished (took 922ms)
+

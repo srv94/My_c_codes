@@ -1,0 +1,7 @@
+01:24:33 **** Clean-only build of configuration Debug for project sda ****
+make clean 
+rm -rf  ./src/sda.o  ./src/sda.d  sda
+ 
+
+01:24:33 Build Finished (took 115ms)
+

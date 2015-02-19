@@ -1,0 +1,6 @@
+23:03:27 **** Incremental Build of configuration Debug for project kl; ****
+make all 
+src/subdir.mk:17: *** missing separator.  Stop.
+
+23:03:27 Build Finished (took 63ms)
+

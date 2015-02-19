@@ -1,0 +1,7 @@
+01:24:33 **** Clean-only build of configuration Debug for project meracode ****
+make clean 
+rm -rf  ./src/meracode.o  ./src/meracode.d  meracode
+ 
+
+01:24:33 Build Finished (took 111ms)
+

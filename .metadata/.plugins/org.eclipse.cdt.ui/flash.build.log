@@ -1,0 +1,36 @@
+16:30:51 **** Incremental Build of configuration Debug for project flash ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 flash.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:     150 bytes (0.5% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+Invoking: AVRDude
+/usr/local/CrossPack-AVR-20131216/bin/avrdude -pm32 -cusbasp -Uflash:w:flash.hex:a
+
+avrdude: warning: cannot set sck period. please check for usbasp firmware update.
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.02s
+
+avrdude: Device signature = 0x000102
+avrdude: Expected signature for ATmega32 is 1E 95 02
+         Double check chip, or use -F to override this check.
+
+avrdude done.  Thank you.
+
+makefile:66: recipe for target 'avrdudedummy' failed
+make: *** [avrdudedummy] Error 1
+
+16:30:51 Build Finished (took 287ms)
+

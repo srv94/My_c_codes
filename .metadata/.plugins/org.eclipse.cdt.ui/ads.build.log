@@ -1,0 +1,6 @@
+02:35:56 **** Incremental Build of configuration Debug for project ads ****
+make all 
+make: Nothing to be done for `all'.
+
+02:35:56 Build Finished (took 169ms)
+

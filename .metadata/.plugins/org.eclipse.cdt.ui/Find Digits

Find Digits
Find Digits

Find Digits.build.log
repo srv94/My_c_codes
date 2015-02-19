@@ -1,0 +1,11 @@
+04:19:00 **** Incremental Build of configuration Debug for project Find Digits
+
+Find Digits
+Find Digits
+
+Find Digits ****
+make all 
+makefile:49: *** missing separator.  Stop.
+
+04:19:00 Build Finished (took 64ms)
+

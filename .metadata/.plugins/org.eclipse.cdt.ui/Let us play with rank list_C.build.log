@@ -1,0 +1,6 @@
+01:42:28 **** Incremental Build of configuration Debug for project Let us play with rank list_C ****
+make all 
+make: Nothing to be done for `all'.
+
+01:42:28 Build Finished (took 64ms)
+

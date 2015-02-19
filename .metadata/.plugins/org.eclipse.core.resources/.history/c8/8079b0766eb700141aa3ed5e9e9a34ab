@@ -1,0 +1,11 @@
+#include<avr/io.h>
+#include<util/delay.h>
+
+int main(){
+	DDRD = 0xff;
+	PORTD = 0xff;
+
+
+
+	return 0;
+}

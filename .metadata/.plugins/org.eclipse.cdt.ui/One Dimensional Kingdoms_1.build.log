@@ -1,0 +1,15 @@
+19:35:06 **** Incremental Build of configuration Debug for project One Dimensional Kingdoms_1 ****
+make all 
+Building file: ../src/One Dimensional Kingdoms_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/One Dimensional Kingdoms_1.d" -MT"src/One\ Dimensional\ Kingdoms_1.d" -o "src/One Dimensional Kingdoms_1.o" "../src/One Dimensional Kingdoms_1.c"
+Finished building: ../src/One Dimensional Kingdoms_1.c
+ 
+Building target: One Dimensional Kingdoms_1
+Invoking: MacOS X C Linker
+gcc  -o "One Dimensional Kingdoms_1"  ./src/One\ Dimensional\ Kingdoms_1.o   
+Finished building target: One Dimensional Kingdoms_1
+ 
+
+19:35:06 Build Finished (took 110ms)
+

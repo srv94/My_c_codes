@@ -1,0 +1,9 @@
+01:24:32 **** Clean-only build of configuration Debug for project Archery
+Archery
+Archery
+Archery ****
+make clean 
+makefile:33: *** missing separator.  Stop.
+
+01:24:32 Build Finished (took 112ms)
+

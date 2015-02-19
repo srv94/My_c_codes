@@ -1,0 +1,15 @@
+17:34:10 **** Incremental Build of configuration Debug for project Chef and Strange Formula_again ****
+make all 
+Building file: ../src/Chef and Strange Formula_again.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Chef and Strange Formula_again.d" -MT"src/Chef\ and\ Strange\ Formula_again.d" -o "src/Chef and Strange Formula_again.o" "../src/Chef and Strange Formula_again.cpp"
+Finished building: ../src/Chef and Strange Formula_again.cpp
+ 
+Building target: Chef and Strange Formula_again
+Invoking: MacOS X C++ Linker
+g++  -o "Chef and Strange Formula_again"  ./src/Chef\ and\ Strange\ Formula_again.o   
+Finished building target: Chef and Strange Formula_again
+ 
+
+17:34:10 Build Finished (took 494ms)
+

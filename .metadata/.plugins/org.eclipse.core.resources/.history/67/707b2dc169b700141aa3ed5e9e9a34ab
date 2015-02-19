@@ -1,0 +1,17 @@
+#include<avr/io.h>
+#include<avr/iom32.h>
+#include<util/delay.h>
+
+int main(){
+	DDRB = 0xff;
+	PORTB = 0xff;
+	DDRA = 0xff;
+	PORTA = 0xff;
+	DDRC = 0xff;
+	PORTC = 0xff;
+	DDRD = 0xff;
+	PORTD = 0xff;
+
+
+	return 0;
+}
